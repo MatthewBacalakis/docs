@@ -1952,5 +1952,29 @@ module.exports = [
    {
      from: '/metadata/lock',
      to: '/users/guides/manage-user-metadata'
+   },
+   {
+     from: '/hooks/cli/create-delete',
+     to: '/hooks/guides/create-delete-hooks-using-cli'
+   },
+   {
+     from: '/hooks/cli/edit',
+     to: '/hooks/guides/edit-hooks-using-cli'
+   },
+   {
+     from: '/hooks/cli/enable-disable',
+     to: '/hooks/guides/enable-disable-hooks-using-cli'
+   },
+   {
+     from: '/hooks/cli/logs',
+     to: '/hooks/guides/logging-hooks-using-cli'
+   },
+   {
+     from: '/hooks/cli',
+     to: '/hooks'
+   },
+   {
+     from: '',
+     to: ''
    }
 ];
